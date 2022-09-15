@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			
+			/*
+			 *条件运算符也叫三元运算符
+			 * 语法
+			 * 条件表达式？语句1:语句2;
+			 * true 语句1
+			 * false 语句2
+			true ? alert("语句1"): alert("语句2");
+			false ? alert("语句1"): alert("语句2");
+			var a="hello";
+			a=Boolean(a);
+			console.log(typeof a);
+			console.log(a);
+			
+			 */
+
+			/*
+			 *  , 运算符
+			 * 分割语句 声明多个变量
+			 * var a=1,b=2,c=3;
+			 */
+			
+			/*
+			 *运算符优先级
+			 * 先乘除    后加减
+			 * 优先级一样的，从左往右
+			 * 优先级不清楚想要谁先运算可以加括号
+			
+			 */
+            var result=1 || 2 && 3;
+			console.log("result = "+result);
+			
+			/*
+			 * 在js中可以用{}为语句分组，要么都执行要么都不执行
+			 * 一整个叫一个语句块
+			 * 代码块里面的内容外部是可以使用的
+			 */
+			{
+				var a=10;
+				alert("hello");
+				document.write("你好");
+				console.log("语句");
+			}
+			console.log("a = "+a);
+			
+			
+			
+			
+			
+			
+			
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			
+			/*
+			 * &nbsp 可以表示空格
+			 */
+			
+			/*for(var i=5;i>0;i--)
+			{
+				for (var j=0;j<i;j++) 
+				{
+					document.write("*&nbsp;");
+				}
+				document.write("<br />");
+			}*/
+			
+			//九九乘法表
+			/*for (var i=1;i<=9;i++) {
+				for (var j=1;j<=i;j++) {
+					document.write("<span>"+j+"*"+i+"="+i*j+"</span>");
+				}
+				document.write("<br />");
+			}*/
+			
+			//打印一到一百的质数
+			/*var count=0;
+			for(var i=2;i<=100;i++)
+			{
+				var flag=1;
+				//document.write(i);
+				for (var j=2;j<i;j++) {
+					if (i%j==0) {
+						flag=0;
+						break;
+					}
+				}
+				if(flag)
+				{
+					console.log(i);
+					count++;
+				}
+			}
+			console.log(count);*/
+			
+			/*
+			 * break continue
+			 * break只可以用于循环语句和switch，不可以if
+			 * break终止指定的循环
+			 * 可以为循环语句创造一个标签，标识当前的循环  形式如下
+			 * 标签:循环语句
+			 * 可以在break后面跟上一个标签名
+			 * 这样的话，break就会结束指定的循环 ，而不是最近的
+			 */
+			outer:
+			for (var i=0;i<5;i++) {
+				console.log(i);
+				for (var j=0;j<5;j++) {
+					break outer;
+				}
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		</script>
+		<style type="text/css">
+			
+			body{
+				width: 2000px;
+			}
+			
+			span{
+				display: inline-block;
+				width: 80px;
+			}
+			
+		</style>
+	</head>
+	<body>
+	</body>
+</html>

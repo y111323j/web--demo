@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			
+			/*
+			 * ==  相等运算符
+			 * 自动转换为一样的类型
+			 * 相等返回true  反之
+			 * 
+			 *   ！=   不相等
+			 * 不相等返回true 反之
+			 * 自动转换类型
+			 * 
+			 * === 全等
+			 * 不会转换类型
+			 * 
+			 * !== 不全等
+			 * 不转换类型
+			 */
+			console.log(1 == 1);
+			var a = 2;
+			console.log(a == 2);
+			console.log(null == 0);//false
+			
+			/*
+			 * undefined衍生自null所以比较会返回true
+			 */
+			console.log(undefined == null)
+			
+			/*、
+			 * NaN不和任何值相等包括它本身
+			 */
+			
+			var a=NaN;
+			console.log(a == NaN);//返回false
+			
+			/*
+			 *可以通过isNaN判断一个值是否是NaN
+			 * 是就返回true
+			 */
+			var b = NaN;
+			console.log(isNaN(b));
+			
+			
+			
+			
+			
+			
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

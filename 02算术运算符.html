@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		 <script type="text/javascript">
+		 	/*
+		 	 * 运算符也叫操作符
+		 	 * 通过运算符可以对一个或者多个值进行运算
+		 	 * typeof相当于运算符，获得值的类型
+		 	 *将该值的类型以字符串的形式返回
+		 	 * 运算符都会返回结果
+		 	 * 算数运算符 当对非number的值进行运算时，会先自动转换为number的值再运算
+		 	 * 任何值和NaN进行运算都是NaN
+		 	 *     + 对两个字符串进行运算，那么会连在一起
+		 	 * 任何值和字符串运算都会先转换为字符串
+		     *通过加法和空串可以将任意一个值类型转换为String类型
+		     * 实际上也是调用String()函数
+		 	var a=123;
+		 	var result=typeof a;
+		 	console.log(result);
+		 	console.log(typeof result);
+		 	var result2="123"+"456";
+		    console.log(result2);
+		    var result3=NaN+"hello";
+		    console.log(result3);
+		    var a=123;
+		    var result=123 + "";
+		    console.log(typeof result);
+		    console.log(a);
+		    console.log("a = "+a);//表明谁的值是123		
+		    
+		 	 *     - 与加法不同的是减法和字符串的运算会先自动转换为number的值再运算
+		    a=100-"abc";
+		 	console.log(a);//返回NaN
+		 	
+		 	 *     * 与加法不同的是乘法和字符串的运算会先自动转换为number的值再运算
+		 	  
+		 	 *     / 除法运算
+		 	  
+		 	 *     % 取模(取余数)
+		 	  var a=9%3;
+              console.log(typeof a);
+              console.log("a = "+a);
+		 	 */
+            
+            /*
+             * 任何值做- * 、运算都会自动转换为Number类型
+             * 所以如下
+             * var a="123";
+             * a=a-0;
+             * console.log(typeof a);
+             * console.log(a);
+             * 
+             */
+ 	
+		 </script>
+	</head>
+	<body>
+	</body>
+</html>

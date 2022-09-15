@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script type="text/javascript">
+			
+			/*
+			 * >  >=  <  <=
+			 * 关系运算符   比较两个值的大小关系
+			 * 关系成立返回true 反之返回false
+			 * 如果符号两侧的值都是字符串，不会转换为数字
+			 * 而是会分别比较字符串中的unicode编码
+			var a=5 > 10;//可以这么写
+			a=5 > 4;
+			console.log("a = "+a);
+			
+			 */
+			
+
+			/*
+			 * 非数值的情况
+			 * 自动转换为数字，再比较
+			 * 
+			 * 任何值与NaN比较都是false
+			 * 
+			console.log(1 > true);
+			console.log(1 >= true);
+			console.log(1 > "0");
+			console.log(10 > "hello");//false
+            console.log("a" > "b");
+            //比较字符编码时是一位一位比较，两位一样比较下一位，出结果大小时直接结束
+            console.log("abc" > "b");
+            //如果是两个字符串的纯数字比较时，那么要先转成number型  如下
+            console.log(+"12345" > +"5");
+			 */
+
+            
+            /*
+             * 在字符串中使用转义字符输出unicode编码
+             * \u后面加四位编码
+             * 
+             console.log("\u0031");
+             */
+
+            
+            
+		</script>
+	</head>
+	<body>
+		<!--
+        	在网页中使用Unicode编码
+        	&#加编码;这里的编码需要十进制编码,上面的是十六进制编码
+        -->
+        <h1><font size="10">&#9760;</h1>
+        <h1 style="font-size: 200px;">&#9856;</h1>	
+	</body>
+</html>
